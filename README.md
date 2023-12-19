@@ -1,5 +1,6 @@
 AWS Web Hosting with EC2 Readme
-Project Overview
+
+Project Overview:
 This DevOps project utilizes AWS services to host a simple HTML web application on an EC2 instance. The architecture includes a VPC with public and private subnets distributed across two availability zones, ensuring high availability and fault tolerance. The web servers are placed in private subnets, protected by security groups, while resources like NAT Gateway, Bastion Host, and Application Load Balancer reside in public subnets.
 
 AWS Resources Used 
